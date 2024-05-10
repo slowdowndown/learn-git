@@ -10,11 +10,11 @@ git是一种分布式版本控制系统，可以跟踪每个项目的变化。
 
 ##### 集中式 SVN：中央处理器的单点故障会引起巨大损失
 
-![image-20240330194226559](C:\Users\86133\AppData\Roaming\Typora\typora-user-images\image-20240330194226559.png)
+![p1](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240330194226559.png))
 
 ##### 分布式 Git
 
-![image-20240330194315633](C:\Users\86133\AppData\Roaming\Typora\typora-user-images\image-20240330194315633.png)
+![p2](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240330194315633.png)
 
 ## 2 安装和初始化配置
 
@@ -24,7 +24,8 @@ git是一种分布式版本控制系统，可以跟踪每个项目的变化。
 
 ### 2.2 姓名邮箱等初始化
 
-![image-20240330195816893](C:\Users\86133\AppData\Roaming\Typora\typora-user-images\image-20240330195816893.png)
+![p3](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240330195816893.png)
+
 
 git常用命令资料见GeekHour公众号
 
@@ -36,36 +37,35 @@ git常用命令资料见GeekHour公众号
 git init
 git clone
 ```
-
-![image-20240420232215938](images/image-20240420232215938.png)
+![p4](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240420232215938.png)
 
 ## 4 Git的工作区域和文件状态
 
 **Git的本地数据管理分为三个区域**
 
-**工作区（Working Directory）：**自己工作的目录，本地资源管理器看到的目录
+**工作区（Working Directory）：** 自己工作的目录，本地资源管理器看到的目录
 
-**暂存区（Staging Area/Index）：**临时存储区域，用于保存即将提交到Git仓库的修改内容
+**暂存区（Staging Area/Index）：** 临时存储区域，用于保存即将提交到Git仓库的修改内容
 
-**本地仓库（Local Repository）：**我们用 git init 创建的目录，是Git存储代码和版本信息的主要位置
+**本地仓库（Local Repository）：** 我们用 git init 创建的目录，是Git存储代码和版本信息的主要位置
 
-![image-20240420232926216](images/image-20240420232926216.png)
+![p5](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240420232926216.png)
 
-![image-20240420233113899](images/image-20240420233113899.png)
+![p6](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240420233113899.png)
 
 **车间不需要每次生产都提交到本地仓库，可以先放到暂存区。**
 
 ## 5 git add & git commit
 
-![image-20240420233201906](images/image-20240420233201906.png)
+![p7](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240420233201906.png)
 
-![image-20240420235530496](images/image-20240420235530496.png)
+![p8](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240420235530496.png)
 
 ## 6 git reset
 
 回退到指定版本
 
-![image-20240421000404529](images/image-20240421000404529.png)
+![p9](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240421000404529.png)
 
 其中`git reset --soft`、`git reset --mixed`比较常用
 
@@ -75,7 +75,7 @@ git clone
 
 ## 7 git diff
 
-![image-20240423000500251](../AppData/Roaming/Typora/typora-user-images/image-20240423000500251.png)
+![p10](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240423000500251.png)
 
 什么都不加的话默认是工作区和暂存区的区别
 
@@ -95,9 +95,9 @@ git diff 版本1提交ID 版本二2提交ID
 
 git diff 版本1提交ID 版本二2提交ID 文件名
 
-![image-20240423001910481](../AppData/Roaming/Typora/typora-user-images/image-20240423001910481.png)
+![p11](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240423001910481.png)
 
-![image-20240423001938893](../AppData/Roaming/Typora/typora-user-images/image-20240423001938893.png)
+![p12](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240423001938893.png)
 
 ## 8 git rm
 
@@ -109,4 +109,4 @@ git diff 版本1提交ID 版本二2提交ID 文件名
 
 ## 9 .gitignore忽略文件
 
-![image-20240509182633419](../AppData/Roaming/Typora/typora-user-images/image-20240509182633419.png)
+![p13](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240509182633419.png)
