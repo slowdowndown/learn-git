@@ -10,11 +10,11 @@ git是一种分布式版本控制系统，可以跟踪每个项目的变化。
 
 ##### 集中式 SVN：中央处理器的单点故障会引起巨大损失
 
-![image-20240330194226559](D:\Code\learn-git\Mymdimage\image-20240330194226559.png)
+![image-20240330194226559](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240330194226559.png)
 
 ##### 分布式 Git
 
-![image-20240330194315633](D:\Code\learn-git\Mymdimage\image-20240330194315633.png)
+![image-20240330194315633](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240330194315633.png)
 
 
 
@@ -26,7 +26,7 @@ git是一种分布式版本控制系统，可以跟踪每个项目的变化。
 
 ### 2.2 姓名邮箱等初始化
 
-![image-20240330195816893](D:\Code\learn-git\Mymdimage\image-20240330195816893.png)
+![image-20240330195816893](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240330195816893.png)
 
 
 
@@ -39,7 +39,7 @@ git init
 git clone
 ```
 
-![image-20240420232215938](D:\Code\learn-git\Mymdimage/image-20240420232215938.png)
+![image-20240420232215938](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240420232215938.png)
 
 
 
@@ -53,9 +53,9 @@ git clone
 
 **本地仓库（Local Repository）：**我们用 git init 创建的目录，是Git存储代码和版本信息的主要位置
 
-![image-20240420232926216](D:\Code\learn-git\Mymdimage/image-20240420232926216.png)
+![image-20240420232926216](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240420232926216.png)
 
-![image-20240420233113899](D:\Code\learn-git\Mymdimage/image-20240420233113899.png)
+![image-20240420233113899](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240420233113899.png)
 
 **车间不需要每次生产都提交到本地仓库，可以先放到暂存区。**
 
@@ -63,9 +63,9 @@ git clone
 
 ## 5 添加和提交文件( *git add & git commit* )
 
-![image-20240420233201906](D:\Code\learn-git\Mymdimage/image-20240420233201906.png)
+![image-20240420233201906](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240420233201906.png)
 
-![image-20240420235530496](D:\Code\learn-git\Mymdimage/image-20240420235530496.png)
+![image-20240420235530496](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240420235530496.png)
 
 常用：`git commit -am "一些说明"`。
 
@@ -75,7 +75,7 @@ git clone
 
 回退到指定版本
 
-![image-20240421000404529](D:\Code\learn-git\Mymdimage/image-20240421000404529.png)
+![image-20240421000404529](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240421000404529.png)
 
 其中`git reset --soft`、`git reset --mixed`比较常用。
 
@@ -87,7 +87,7 @@ git clone
 
 ## 7 查看不同版本或分支之间的差异( *git diff* )
 
-![image-20240423000500251](D:\Code\learn-git\Mymdimage/image-20240423000500251.png)
+![image-20240423000500251](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240423000500251.png)
 
 什么都不加的话默认是工作区和暂存区的区别: `git diff`
 
@@ -99,9 +99,9 @@ git clone
 
 还可以在语句后加指定文件名指定对比特定文件: `git diff 版本1提交ID 版本二2提交ID 文件名`
 
-![image-20240423001910481](D:\Code\learn-git\Mymdimage/image-20240423001910481.png)
+![image-20240423001910481](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240423001910481.png)
 
-![image-20240423001938893](D:\Code\learn-git\Mymdimage/image-20240423001938893.png)
+![image-20240423001938893](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240423001938893.png)
 
 
 
@@ -117,13 +117,13 @@ git clone
 
 ## 9 忽略文件( *.gitignore* )
 
-![image-20240509182633419](D:\Code\learn-git\Mymdimage/image-20240509182633419.png)
+![image-20240509182633419](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240509182633419.png)
 
 在文件中列出需要忽略的文件
 
-![image-20240709175756944](D:\Code\learn-git\Mymdimage\image-20240709175756944.png)
+![image-20240709175756944](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709175756944.png)
 
-![image-20240709175828150](D:\Code\learn-git\Mymdimage\image-20240709175828150.png)
+![image-20240709175828150](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709175828150.png)
 
 
 
@@ -135,15 +135,15 @@ git clone
 
 ## 10&11  Github账号创建 & SSH配置和克隆仓库( *git clone* )
 
-![image-20240709210853500](D:\Code\learn-git\Mymdimage\image-20240709210853500.png)
+![image-20240709210853500](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709210853500.png)
 
-![image-20240709211448840](D:\Code\learn-git\Mymdimage\image-20240709211448840.png)
+![image-20240709211448840](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709211448840.png)
 
 
 
 ## 12 关联本地仓库和远程仓库 ( *git remote & git pull & git push* )
 
-![image-20240709212206304](D:\Code\learn-git\Mymdimage\image-20240709212206304.png)
+![image-20240709212206304](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709212206304.png)
 
 
 
@@ -163,31 +163,31 @@ git clone
 
 ## 16 分支简介和基本操作
 
-![image-20240709214523608](D:\Code\learn-git\Mymdimage\image-20240709214523608.png)
+![image-20240709214523608](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709214523608.png)
 
-![image-20240709215210591](D:\Code\learn-git\Mymdimage\image-20240709215210591.png)
+![image-20240709215210591](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709215210591.png)
 
-![image-20240709215319956](D:\Code\learn-git\Mymdimage\image-20240709215319956.png)
+![image-20240709215319956](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709215319956.png)
 
-![image-20240709215516638](D:\Code\learn-git\Mymdimage\image-20240709215516638.png)
+![image-20240709215516638](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709215516638.png)
 
 
 
 ## 17 解决合并冲突( *git merge* )
 
-![image-20240709215828367](D:\Code\learn-git\Mymdimage\image-20240709215828367.png)
+![image-20240709215828367](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709215828367.png)
 
 可以使用`git diff` 查看，然后手动合并
 
-![image-20240709220007149](D:\Code\learn-git\Mymdimage\image-20240709220007149.png)
+![image-20240709220007149](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709220007149.png)
 
-![image-20240709220033593](D:\Code\learn-git\Mymdimage\image-20240709220033593.png)
+![image-20240709220033593](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709220033593.png)
 
 
 
 ## 18 回退和变基( *git reset & git rebase* )
 
-![image-20240709220313666](D:\Code\learn-git\Mymdimage\image-20240709220313666.png)
+![image-20240709220313666](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709220313666.png)
 
 **git merge 和 git rebase的区别**
 
@@ -199,10 +199,10 @@ git clone
 
 Git Flow模型、GitHub Flow模型
 
-![image-20240709221645275](D:\Code\learn-git\Mymdimage\image-20240709221645275.png)
+![image-20240709221645275](https://github.com/slowdowndown/Mymdimage/blob/main/image-20240709221645275.png)
 
 
 
 ## 附 Git CheetSheet byGeekHour
 
-![Git-Cheet-Sheet-ByGeekHour](D:\Code\learn-git\Mymdimage\Git-Cheet-Sheet-ByGeekHour-17205348236071.png)
+![Git-Cheet-Sheet-ByGeekHour](https://github.com/slowdowndown/Mymdimage/blob/main/Git-Cheet-Sheet-ByGeekHour-17205348236071.png)
